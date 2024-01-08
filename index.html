@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .clock {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+
+        .hour,
+        .minute,
+        .second {
+            font-size: 40px;
+            font-weight: bold;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color:rgba(240, 225, 17, 0.959);
+            margin: 20px;
+            width: 90px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clock">
+        <button class="hour"></button><span class="new"><b>HR</b></span>
+        <button class="minute"></button><span class="new"><b>MIN</b></span>
+        <button class="second"></button><span class="new"><b>SEC</b></span>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
